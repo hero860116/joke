@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+
+	<!--
+	<bean id="statisticsMonthSalesJob" class="org.springframework.scheduling.quartz.JobDetailBean">
+		<property name="jobClass">
+			<value>com.lwl.extend.StatisticsMonthSalesJob</value>
+		</property>
+		<property name="jobDataAsMap">
+			<map>
+				<entry key="groupOrderAO">
+					<ref bean="groupOrderAO" />
+				</entry>
+			</map>
+		</property>
+	</bean>
+	<bean id="statisticsMonthSalesCronTrigger" class="org.springframework.scheduling.quartz.CronTriggerBean">
+		<property name="jobDetail">
+			<ref bean="statisticsMonthSalesJob" />
+		</property>
+		<property name="cronExpression">
+			<value>0 0 3 * * ?</value>
+		</property>
+	</bean>
+	
+
+	<bean id="SchedulerFactory" class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+		<property name="triggers">
+			<list>
+				<ref local="clearDayPropertiesCronTrigger" />
+				<ref local="staticsOrderCronTrigger" />
+				<ref local="syncToMongoDBCronTrigger" />
+				<ref local="syncSearchFoodMOToCacheCronTrigger" />
+				<ref local="syncGpsPointInfoToCacheCronTrigger" />
+				<ref local="statisticsMonthSalesCronTrigger" />
+			</list>
+		</property>
+	</bean>
+        -->
+</beans>

@@ -1,0 +1,21 @@
+<div id="page">
+    <!--
+    <div id="place">
+    	<div class="placecontent">
+    			<span class="check"><a href="$tasteModule.setTarget('privilegeShopList.vm')">网站首页</a>&nbsp;&nbsp;&gt;</span>
+    			<span class="time">成功提示</span>
+    			<div class="clear"></div>
+    	</div>
+    </div>
+	-->
+
+    <div class="success">
+        <div class="successcontent">
+            <h2>${message}</h2>
+            <div>
+                <p>您可以点击这里<a href="$referer">返回</a></p>
+                <p>或者<a href="$tasteModule">返回首页</a>。</p>
+            </div>
+        </div>
+    </div>
+</div>

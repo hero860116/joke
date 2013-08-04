@@ -1,0 +1,28 @@
+<form action="$adminModule/test.htm?action=table_action&event_submit_do_save=1" method="post">
+    <div class="box3" panelTitle="$tableDO.name">
+        <input type="hidden" name="tableName" value="$tableDO.name" />
+        <table class="tableStyle" style="width: 400px;">
+            <thead>
+            <th>字段名</th>
+            <th>字段类型</th>
+            <th>生成规则</th>
+            </thead>
+            #foreach($filedDO in $tableDO.fields)
+                <tr>
+
+                    <td>$filedDO.name</td>
+                    <td>$filedDO.type</td>
+                    <td>
+                        <select name="$filedDO.name">
+                            #foreach($generationType in $fieldGenerationTypes)
+                                <option value="$generationType.value">$generationType.key</option>
+                            #end
+                        </select>
+                    </td>
+                </tr>
+            #end
+        </table>
+
+    </div>
+    <input type="submit"  />
+</form>

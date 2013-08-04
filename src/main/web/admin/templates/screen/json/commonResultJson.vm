@@ -1,0 +1,9 @@
+[{
+"success": $!{success},
+"msg":"$!{msg}",
+#if ("$!{data}" == "")
+"data" : null
+#else
+"data" : $!{data}
+#end
+}]

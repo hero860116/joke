@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+    <appender name="STDOUT" class="org.apache.log4j.ConsoleAppender">
+        <param name="target" generationType="System.out" />
+        <param name="encoding" generationType="${loggingCharset}" />
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern"
+                generationType="%n%-4r [%d{yyyy-MM-dd HH:mm:ss}] - %X{method} %X{requestURIWithQueryString} [ip=%X{remoteAddr}, ref=%X{referrer}, ua=%X{userAgent}, sid=%X{cookie.JSESSIONID}]%n  %-5level %logger{35} - %m%n"
+             />
+        </layout>
+        <filter class="org.apache.log4j.varia.LevelRangeFilter">
+            <param name="levelMax" generationType="INFO" />
+        </filter>
+    </appender>
+
+    <appender name="STDERR" class="org.apache.log4j.ConsoleAppender">
+        <param name="target" generationType="System.err" />
+        <param name="encoding" generationType="${loggingCharset}" />
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern"
+                generationType="%n%-4r [%d{yyyy-MM-dd HH:mm:ss}] - %X{method} %X{requestURIWithQueryString} [ip=%X{remoteAddr}, ref=%X{referrer}, ua=%X{userAgent}, sid=%X{cookie.JSESSIONID}]%n  %-5level %logger{35} - %m%n"
+             />
+        </layout>
+        <filter class="org.apache.log4j.varia.LevelRangeFilter">
+            <param name="levelMin" generationType="WARN" />
+        </filter>
+    </appender>
+
+    <appender name="PROJECT" class="org.apache.log4j.FileAppender">
+        <param name="file" generationType="${loggingRoot}/${localHost}/myapp.log" />
+        <param name="encoding" generationType="${loggingCharset}" />
+        <param name="append" generationType="true" />
+        <layout class="org.apache.log4j.PatternLayout">
+            <param name="ConversionPattern"
+                generationType="%n%-4r [%d{yyyy-MM-dd HH:mm:ss}] - %X{method} %X{requestURIWithQueryString} [ip=%X{remoteAddr}, ref=%X{referrer}, ua=%X{userAgent}, sid=%X{cookie.JSESSIONID}]%n  %-5level %logger{35} - %m%n"
+             />
+        </layout>
+    </appender>
+
+    <root>
+        <level generationType="${loggingLevel}" />
+        <appender-ref ref="STDOUT" />
+        <appender-ref ref="STDERR" />
+        <appender-ref ref="PROJECT" />
+    </root>
+</log4j:configuration>

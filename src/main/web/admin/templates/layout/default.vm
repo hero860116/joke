@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript" src="$staticsContent.getURI('qui/libs/js/jquery-1.6.4.min.js')" ></script>
+
+    <!--框架必需start-->
+    <link href="$staticsContent.getURI('qui/libs/css/import_basic.css')" rel="stylesheet" type="text/css"/>
+    <link href="$staticsContent.getURI('qui/libs/skins/blue/style.css')" rel="stylesheet" type="text/css" id="theme" themeColor="blue"/>
+    <link href="$staticsContent.getURI('qui/system/layout/skin/style.css')" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="$staticsContent.getURI('qui/libs/js/framework.js')"></script>
+    <!--框架必需end-->
+    <!--引入弹窗组件start-->
+    <script type="text/javascript" src="$staticsContent.getURI('qui/libs/js/popup/drag.js')"></script>
+    <script type="text/javascript" src="$staticsContent.getURI('qui/libs/js/popup/dialog.js')"></script>
+    <!--引入弹窗组件end-->
+    <!--分隔条start-->
+    <script type="text/javascript" src="$staticsContent.getURI('qui/libs/js/nav/spliter.js')"></script>
+    <!--分隔条end-->
+    <!--引入日期组件start-->
+    <script type="text/javascript" src="$staticsContent.getURI('qui/libs/js/form/datePicker/WdatePicker.js')"></script>
+    <!--引入日期组件end-->
+    <!-- 树形控件start -->
+    <script type="text/javascript" src="$staticsContent.getURI('qui/libs/js/tree/ztree/ztree.js')"></script>
+    <link rel="stylesheet" type="text/css" href="$staticsContent.getURI('qui/libs/js/tree/ztree/ztree.css')">
+    </script>
+    <!-- 树形控件end -->
+    <!-- 树形下拉框start -->
+    <script type="text/javascript" src="$staticsContent.getURI('qui/libs/js/form/selectTree.js')"></script>
+    <!-- 树形下拉框end -->
+    <!--箭头分页start-->
+    <script type="text/javascript" src="$staticsContent.getURI('qui/libs/js/nav/pageArrow.js')"></script>
+    <!--箭头分页end-->
+    <!-- 双向选择器start -->
+    <script type="text/javascript" src="$staticsContent.getURI('qui/libs/js/form/lister.js')"></script>
+    <!-- 双向选择器end -->
+    <!--树形表格start-->
+    <script type="text/javascript" src="$staticsContent.getURI('qui/libs/js/table/treeTable.js')"></script>
+    <!--树形表格end-->
+
+    <!--基本选项卡start-->
+    <script type="text/javascript" src="$staticsContent.getURI('qui/libs/js/nav/basicTab.js')"></script>
+    <!--基本选项卡end-->
+
+</head>
+<body>
+<div style="width:98%;margin:0 auto;">
+    $screen_placeholder
+</div>
+</body>
+</html>

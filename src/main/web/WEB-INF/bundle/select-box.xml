@@ -1,0 +1,842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource-bundle name="select-box">
+    <map id="country">
+        <message id="AL">
+            <data>阿尔巴尼亚</data>
+        </message>
+        <message id="DZ">
+            <data>阿尔及利亚</data>
+        </message>
+        <message id="AF">
+            <data>阿富汗</data>
+        </message>
+        <message id="AR">
+            <data>阿根廷</data>
+        </message>
+        <message id="AE">
+            <data>阿拉伯联合酋长国</data>
+        </message>
+        <message id="OM">
+            <data>阿曼</data>
+        </message>
+        <message id="AZ">
+            <data>阿塞拜疆</data>
+        </message>
+        <message id="EG">
+            <data>埃及</data>
+        </message>
+        <message id="ET">
+            <data>埃塞俄比亚</data>
+        </message>
+        <message id="IE">
+            <data>爱尔兰</data>
+        </message>
+        <message id="EE">
+            <data>爱沙尼亚</data>
+        </message>
+        <message id="AD">
+            <data>安道尔共和国</data>
+        </message>
+        <message id="AO">
+            <data>安哥拉</data>
+        </message>
+        <message id="AI">
+            <data>安圭拉岛</data>
+        </message>
+        <message id="AG">
+            <data>安提瓜和巴布达</data>
+        </message>
+        <message id="AT">
+            <data>奥地利</data>
+        </message>
+        <message id="AU">
+            <data>澳大利亚</data>
+        </message>
+        <message id="MO">
+            <data>澳门</data>
+        </message>
+        <message id="BB">
+            <data>巴巴多斯</data>
+        </message>
+        <message id="PG">
+            <data>巴布亚新几内亚</data>
+        </message>
+        <message id="BS">
+            <data>巴哈马</data>
+        </message>
+        <message id="PK">
+            <data>巴基斯坦</data>
+        </message>
+        <message id="PY">
+            <data>巴拉圭</data>
+        </message>
+        <message id="BL">
+            <data>巴勒斯坦</data>
+        </message>
+        <message id="BH">
+            <data>巴林</data>
+        </message>
+        <message id="PA">
+            <data>巴拿马</data>
+        </message>
+        <message id="BR">
+            <data>巴西</data>
+        </message>
+        <message id="BY">
+            <data>白俄罗斯</data>
+        </message>
+        <message id="BM">
+            <data>百慕大群岛</data>
+        </message>
+        <message id="BG">
+            <data>保加利亚</data>
+        </message>
+        <message id="BJ">
+            <data>贝宁</data>
+        </message>
+        <message id="BE">
+            <data>比利时</data>
+        </message>
+        <message id="IS">
+            <data>冰岛</data>
+        </message>
+        <message id="PR">
+            <data>波多黎各</data>
+        </message>
+        <message id="PL">
+            <data>波兰</data>
+        </message>
+        <message id="BO">
+            <data>玻利维亚</data>
+        </message>
+        <message id="BZ">
+            <data>伯利兹</data>
+        </message>
+        <message id="BW">
+            <data>博茨瓦纳</data>
+        </message>
+        <message id="BF">
+            <data>布基纳法索</data>
+        </message>
+        <message id="BI">
+            <data>布隆迪</data>
+        </message>
+        <message id="KP">
+            <data>朝鲜</data>
+        </message>
+        <message id="DK">
+            <data>丹麦</data>
+        </message>
+        <message id="DE">
+            <data>德国</data>
+        </message>
+        <message id="TG">
+            <data>多哥</data>
+        </message>
+        <message id="DO">
+            <data>多米尼加共和国</data>
+        </message>
+        <message id="RU">
+            <data>俄罗斯</data>
+        </message>
+        <message id="EC">
+            <data>厄瓜多尔</data>
+        </message>
+        <message id="FR">
+            <data>法国</data>
+        </message>
+        <message id="PF">
+            <data>法属玻利尼西亚</data>
+        </message>
+        <message id="GF">
+            <data>法属圭亚那</data>
+        </message>
+        <message id="PH">
+            <data>菲律宾</data>
+        </message>
+        <message id="FJ">
+            <data>斐济</data>
+        </message>
+        <message id="FI">
+            <data>芬兰</data>
+        </message>
+        <message id="GM">
+            <data>冈比亚</data>
+        </message>
+        <message id="CG">
+            <data>刚果</data>
+        </message>
+        <message id="CO">
+            <data>哥伦比亚</data>
+        </message>
+        <message id="CR">
+            <data>哥斯达黎加</data>
+        </message>
+        <message id="GD">
+            <data>格林纳达</data>
+        </message>
+        <message id="GE">
+            <data>格鲁吉亚</data>
+        </message>
+        <message id="CU">
+            <data>古巴</data>
+        </message>
+        <message id="GU">
+            <data>关岛</data>
+        </message>
+        <message id="GY">
+            <data>圭亚那</data>
+        </message>
+        <message id="KZ">
+            <data>哈萨克斯坦</data>
+        </message>
+        <message id="HT">
+            <data>海地</data>
+        </message>
+        <message id="KR">
+            <data>韩国</data>
+        </message>
+        <message id="NL">
+            <data>荷兰</data>
+        </message>
+        <message id="HN">
+            <data>洪都拉斯</data>
+        </message>
+        <message id="DJ">
+            <data>吉布提</data>
+        </message>
+        <message id="KG">
+            <data>吉尔吉斯坦</data>
+        </message>
+        <message id="GN">
+            <data>几内亚</data>
+        </message>
+        <message id="CA">
+            <data>加拿大</data>
+        </message>
+        <message id="GH">
+            <data>加纳</data>
+        </message>
+        <message id="GA">
+            <data>加蓬</data>
+        </message>
+        <message id="KH">
+            <data>柬埔寨</data>
+        </message>
+        <message id="CS">
+            <data>捷克</data>
+        </message>
+        <message id="CZ">
+            <data>捷克</data>
+        </message>
+        <message id="ZW">
+            <data>津巴布韦</data>
+        </message>
+        <message id="CM">
+            <data>喀麦隆</data>
+        </message>
+        <message id="QA">
+            <data>卡塔尔</data>
+        </message>
+        <message id="KT">
+            <data>科特迪瓦共和国</data>
+        </message>
+        <message id="KW">
+            <data>科威特</data>
+        </message>
+        <message id="KE">
+            <data>肯尼亚</data>
+        </message>
+        <message id="CK">
+            <data>库克群岛</data>
+        </message>
+        <message id="LV">
+            <data>拉脱维亚</data>
+        </message>
+        <message id="LS">
+            <data>莱索托</data>
+        </message>
+        <message id="LA">
+            <data>老挝</data>
+        </message>
+        <message id="LB">
+            <data>黎巴嫩</data>
+        </message>
+        <message id="LT">
+            <data>立陶宛</data>
+        </message>
+        <message id="LR">
+            <data>利比里亚</data>
+        </message>
+        <message id="LY">
+            <data>利比亚</data>
+        </message>
+        <message id="LI">
+            <data>列支敦士登</data>
+        </message>
+        <message id="LU">
+            <data>卢森堡</data>
+        </message>
+        <message id="RO">
+            <data>罗马尼亚</data>
+        </message>
+        <message id="MG">
+            <data>马达加斯加</data>
+        </message>
+        <message id="MV">
+            <data>马尔代夫</data>
+        </message>
+        <message id="MT">
+            <data>马耳他</data>
+        </message>
+        <message id="MW">
+            <data>马拉维</data>
+        </message>
+        <message id="MY">
+            <data>马来西亚</data>
+        </message>
+        <message id="ML">
+            <data>马里</data>
+        </message>
+        <message id="MU">
+            <data>毛里求斯</data>
+        </message>
+        <message id="US">
+            <data>美国</data>
+        </message>
+        <message id="MN">
+            <data>蒙古</data>
+        </message>
+        <message id="MS">
+            <data>蒙特塞拉特岛</data>
+        </message>
+        <message id="BD">
+            <data>孟加拉国</data>
+        </message>
+        <message id="PE">
+            <data>秘鲁</data>
+        </message>
+        <message id="MM">
+            <data>缅甸</data>
+        </message>
+        <message id="MD">
+            <data>摩尔多瓦</data>
+        </message>
+        <message id="MA">
+            <data>摩洛哥</data>
+        </message>
+        <message id="MC">
+            <data>摩纳哥</data>
+        </message>
+        <message id="MZ">
+            <data>莫桑比克</data>
+        </message>
+        <message id="MX">
+            <data>墨西哥</data>
+        </message>
+        <message id="NA">
+            <data>纳米比亚</data>
+        </message>
+        <message id="ZA">
+            <data>南非</data>
+        </message>
+        <message id="YU">
+            <data>南斯拉夫</data>
+        </message>
+        <message id="NR">
+            <data>瑙鲁</data>
+        </message>
+        <message id="NP">
+            <data>尼泊尔</data>
+        </message>
+        <message id="NI">
+            <data>尼加拉瓜</data>
+        </message>
+        <message id="NE">
+            <data>尼日尔</data>
+        </message>
+        <message id="NG">
+            <data>尼日利亚</data>
+        </message>
+        <message id="NO">
+            <data>挪威</data>
+        </message>
+        <message id="PT">
+            <data>葡萄牙</data>
+        </message>
+        <message id="JP">
+            <data>日本</data>
+        </message>
+        <message id="SE">
+            <data>瑞典</data>
+        </message>
+        <message id="CH">
+            <data>瑞士</data>
+        </message>
+        <message id="SV">
+            <data>萨尔瓦多</data>
+        </message>
+        <message id="SL">
+            <data>塞拉利昂</data>
+        </message>
+        <message id="SN">
+            <data>塞内加尔</data>
+        </message>
+        <message id="CY">
+            <data>塞浦路斯</data>
+        </message>
+        <message id="SC">
+            <data>塞舌尔</data>
+        </message>
+        <message id="SA">
+            <data>沙特阿拉伯</data>
+        </message>
+        <message id="ST">
+            <data>圣多美和普林西比</data>
+        </message>
+        <message id="LC">
+            <data>圣卢西亚</data>
+        </message>
+        <message id="SM">
+            <data>圣马力诺</data>
+        </message>
+        <message id="VC">
+            <data>圣文森特岛</data>
+        </message>
+        <message id="LK">
+            <data>斯里兰卡</data>
+        </message>
+        <message id="SK">
+            <data>斯洛伐克</data>
+        </message>
+        <message id="SI">
+            <data>斯洛文尼亚</data>
+        </message>
+        <message id="SZ">
+            <data>斯威士兰</data>
+        </message>
+        <message id="SD">
+            <data>苏丹</data>
+        </message>
+        <message id="SR">
+            <data>苏里南</data>
+        </message>
+        <message id="SB">
+            <data>所罗门群岛</data>
+        </message>
+        <message id="SO">
+            <data>索马里</data>
+        </message>
+        <message id="TJ">
+            <data>塔吉克斯坦</data>
+        </message>
+        <message id="TW">
+            <data>台湾省</data>
+        </message>
+        <message id="TH">
+            <data>泰国</data>
+        </message>
+        <message id="TZ">
+            <data>坦桑尼亚</data>
+        </message>
+        <message id="TO">
+            <data>汤加</data>
+        </message>
+        <message id="TT">
+            <data>特立尼达和多巴哥</data>
+        </message>
+        <message id="TN">
+            <data>突尼斯</data>
+        </message>
+        <message id="TR">
+            <data>土耳其</data>
+        </message>
+        <message id="TM">
+            <data>土库曼斯坦</data>
+        </message>
+        <message id="GT">
+            <data>危地马拉</data>
+        </message>
+        <message id="VE">
+            <data>委内瑞拉</data>
+        </message>
+        <message id="BN">
+            <data>文莱</data>
+        </message>
+        <message id="UG">
+            <data>乌干达</data>
+        </message>
+        <message id="UA">
+            <data>乌克兰</data>
+        </message>
+        <message id="UY">
+            <data>乌拉圭</data>
+        </message>
+        <message id="UZ">
+            <data>乌兹别克斯坦</data>
+        </message>
+        <message id="ES">
+            <data>西班牙</data>
+        </message>
+        <message id="GR">
+            <data>希腊</data>
+        </message>
+        <message id="HK">
+            <data>香港特别行政区</data>
+        </message>
+        <message id="SG">
+            <data>新加坡</data>
+        </message>
+        <message id="NZ">
+            <data>新西兰</data>
+        </message>
+        <message id="HU">
+            <data>匈牙利</data>
+        </message>
+        <message id="SY">
+            <data>叙利亚</data>
+        </message>
+        <message id="JM">
+            <data>牙买加</data>
+        </message>
+        <message id="AM">
+            <data>亚美尼亚</data>
+        </message>
+        <message id="YE">
+            <data>也门</data>
+        </message>
+        <message id="IQ">
+            <data>伊拉克</data>
+        </message>
+        <message id="IR">
+            <data>伊朗</data>
+        </message>
+        <message id="IL">
+            <data>以色列</data>
+        </message>
+        <message id="IT">
+            <data>意大利</data>
+        </message>
+        <message id="IN">
+            <data>印度</data>
+        </message>
+        <message id="ID">
+            <data>印度尼西亚</data>
+        </message>
+        <message id="GB">
+            <data>英国</data>
+        </message>
+        <message id="JO">
+            <data>约旦</data>
+        </message>
+        <message id="VN">
+            <data>越南</data>
+        </message>
+        <message id="ZM">
+            <data>赞比亚</data>
+        </message>
+        <message id="ZR">
+            <data>扎伊尔</data>
+        </message>
+        <message id="TD">
+            <data>乍得</data>
+        </message>
+        <message id="GI">
+            <data>直布罗陀</data>
+        </message>
+        <message id="CL">
+            <data>智利</data>
+        </message>
+        <message id="CF">
+            <data>中非共和国</data>
+        </message>
+        <message id="CN">
+            <data>中国</data>
+        </message>
+    </map>
+    <map id="creditCardType">
+        <message id="MasterCard">
+            <data>MasterCard</data>
+        </message>
+        <message id="Visa">
+            <data>Visa</data>
+        </message>
+    </map>
+    <map id="month">
+        <message id="1">
+            <data>1月</data>
+        </message>
+        <message id="2">
+            <data>2月</data>
+        </message>
+        <message id="3">
+            <data>3月</data>
+        </message>
+        <message id="4">
+            <data>4月</data>
+        </message>
+        <message id="5">
+            <data>5月</data>
+        </message>
+        <message id="6">
+            <data>6月</data>
+        </message>
+        <message id="7">
+            <data>7月</data>
+        </message>
+        <message id="8">
+            <data>8月</data>
+        </message>
+        <message id="9">
+            <data>9月</data>
+        </message>
+        <message id="10">
+            <data>10月</data>
+        </message>
+        <message id="11">
+            <data>11月</data>
+        </message>
+        <message id="12">
+            <data>12月</data>
+        </message>
+    </map>
+    <map id="year">
+        <message id="1975">
+            <data>1975</data>
+        </message>
+        <message id="1976">
+            <data>1976</data>
+        </message>
+        <message id="1977">
+            <data>1977</data>
+        </message>
+        <message id="1978">
+            <data>1978</data>
+        </message>
+        <message id="1979">
+            <data>1979</data>
+        </message>
+        <message id="1980">
+            <data>1980</data>
+        </message>
+        <message id="1981">
+            <data>1981</data>
+        </message>
+        <message id="1982">
+            <data>1982</data>
+        </message>
+        <message id="1983">
+            <data>1983</data>
+        </message>
+        <message id="1984">
+            <data>1984</data>
+        </message>
+        <message id="1985">
+            <data>1985</data>
+        </message>
+        <message id="1986">
+            <data>1986</data>
+        </message>
+        <message id="1987">
+            <data>1987</data>
+        </message>
+        <message id="1988">
+            <data>1988</data>
+        </message>
+        <message id="1989">
+            <data>1989</data>
+        </message>
+        <message id="1990">
+            <data>1990</data>
+        </message>
+        <message id="1991">
+            <data>1991</data>
+        </message>
+        <message id="1992">
+            <data>1992</data>
+        </message>
+        <message id="1993">
+            <data>1993</data>
+        </message>
+        <message id="1994">
+            <data>1994</data>
+        </message>
+        <message id="1995">
+            <data>1995</data>
+        </message>
+        <message id="1996">
+            <data>1996</data>
+        </message>
+        <message id="1997">
+            <data>1997</data>
+        </message>
+        <message id="1998">
+            <data>1998</data>
+        </message>
+        <message id="1999">
+            <data>1999</data>
+        </message>
+        <message id="2000">
+            <data>2000</data>
+        </message>
+        <message id="2001">
+            <data>2001</data>
+        </message>
+        <message id="2002">
+            <data>2002</data>
+        </message>
+        <message id="2003">
+            <data>2003</data>
+        </message>
+        <message id="2004">
+            <data>2004</data>
+        </message>
+        <message id="2005">
+            <data>2005</data>
+        </message>
+        <message id="2006">
+            <data>2006</data>
+        </message>
+        <message id="2007">
+            <data>2007</data>
+        </message>
+        <message id="2008">
+            <data>2008</data>
+        </message>
+        <message id="2009">
+            <data>2009</data>
+        </message>
+        <message id="2010">
+            <data>2010</data>
+        </message>
+        <message id="2011">
+            <data>2011</data>
+        </message>
+        <message id="2012">
+            <data>2012</data>
+        </message>
+        <message id="2013">
+            <data>2013</data>
+        </message>
+        <message id="2014">
+            <data>2014</data>
+        </message>
+        <message id="2015">
+            <data>2015</data>
+        </message>
+        <message id="2016">
+            <data>2016</data>
+        </message>
+        <message id="2017">
+            <data>2017</data>
+        </message>
+        <message id="2018">
+            <data>2018</data>
+        </message>
+        <message id="2019">
+            <data>2019</data>
+        </message>
+        <message id="2020">
+            <data>2020</data>
+        </message>
+        <message id="2021">
+            <data>2021</data>
+        </message>
+        <message id="2022">
+            <data>2022</data>
+        </message>
+        <message id="2023">
+            <data>2023</data>
+        </message>
+        <message id="2024">
+            <data>2024</data>
+        </message>
+        <message id="2025">
+            <data>2025</data>
+        </message>
+        <message id="2026">
+            <data>2026</data>
+        </message>
+        <message id="2027">
+            <data>2027</data>
+        </message>
+        <message id="2028">
+            <data>2028</data>
+        </message>
+        <message id="2029">
+            <data>2029</data>
+        </message>
+        <message id="2030">
+            <data>2030</data>
+        </message>
+        <message id="2031">
+            <data>2031</data>
+        </message>
+        <message id="2032">
+            <data>2032</data>
+        </message>
+        <message id="2033">
+            <data>2033</data>
+        </message>
+        <message id="2034">
+            <data>2034</data>
+        </message>
+        <message id="2035">
+            <data>2035</data>
+        </message>
+        <message id="2036">
+            <data>2036</data>
+        </message>
+        <message id="2037">
+            <data>2037</data>
+        </message>
+        <message id="2038">
+            <data>2038</data>
+        </message>
+        <message id="2039">
+            <data>2039</data>
+        </message>
+        <message id="2040">
+            <data>2040</data>
+        </message>
+        <message id="2041">
+            <data>2041</data>
+        </message>
+        <message id="2042">
+            <data>2042</data>
+        </message>
+        <message id="2043">
+            <data>2043</data>
+        </message>
+        <message id="2044">
+            <data>2044</data>
+        </message>
+        <message id="2045">
+            <data>2045</data>
+        </message>
+        <message id="2046">
+            <data>2046</data>
+        </message>
+        <message id="2047">
+            <data>2047</data>
+        </message>
+        <message id="2048">
+            <data>2048</data>
+        </message>
+        <message id="2049">
+            <data>2049</data>
+        </message>
+        <message id="2050">
+            <data>2050</data>
+        </message>
+        <message id="2051">
+            <data>2051</data>
+        </message>
+        <message id="2052">
+            <data>2052</data>
+        </message>
+        <message id="2053">
+            <data>2053</data>
+        </message>
+    </map>
+</resource-bundle>

@@ -1,0 +1,23 @@
+<div id="page">
+    <!--
+    <div id="place">
+    	<div class="placecontent">
+    			<span class="check"><a href="$tasteModule.setTarget('privilegeShopList.vm')">网站首页</a>&nbsp;&nbsp;&gt;</span>
+    			<span class="time">流程错误提示</span>
+    			<div class="clear"></div>
+    	</div>
+    </div>
+	-->
+
+    <div class="areaerror">
+        <div class="areacontent">
+            <h2>${message}</h2>
+            <div>
+                #if($hasPrevious == 'true')
+                    <p>您可以点击这里<a href="$referer">返回</a></p>
+                #end
+                <p>#if($hasPrevious == 'true') 或者 #end<a href="$tasteModule">返回首页</a>。</p>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="
+   http://www.springframework.org/schema/beans http://localhost:8080/schema/www.springframework.org/schema/beans/spring-beans.xsd
+   http://www.springframework.org/schema/tx
+   http://www.springframework.org/schema/tx/spring-tx-2.5.xsd
+   http://www.springframework.org/schema/aop
+   http://www.springframework.org/schema/aop/spring-aop-2.5.xsd"
+       default-autowire="byName">
+
+    <bean id="tasteDS" class="com.mchange.v2.c3p0.ComboPooledDataSource" destroy-method="close">
+
+        <property name="driverClass">
+            <value>com.mysql.jdbc.Driver</value>
+        </property>
+        <property name="jdbcUrl">
+            <value>jdbc:mysql://localhost:3306/test?rewriteBatchedStatements=true</value>
+        </property>
+        <property name="user">
+            <value>root</value>
+        </property>
+        <property name="password">
+            <value>root</value>
+        </property>
+
+        <property name="checkoutTimeout" value="5000"/>
+        <property name="initialPoolSize" value="10"/>
+        <property name="minPoolSize" value="10"/>
+        <property name="maxPoolSize" value="30"/>
+        <property name="maxIdleTime" value="25200"/>
+        <property name="acquireIncrement" value="5"/>
+    </bean>
+
+    <!--
+        <bean id="sqlMapClient" class="org.springframework.orm.ibatis.SqlMapClientFactoryBean">
+            <property name="configLocation">
+                <value>classpath:sqlmap-config.xml</value>
+            </property>
+            <property name="dataSource">
+                <ref local="tasteDS" />
+            </property>
+        </bean>
+
+        <bean id="sqlMapClientTemplate" class="org.springframework.orm.ibatis.SqlMapClientTemplate">
+            <property name="sqlMapClient">
+                <ref local="sqlMapClient" />
+            </property>
+        </bean>
+     -->
+    <bean id="simpleJdbcTemplate" class="org.springframework.jdbc.core.simple.SimpleJdbcTemplate">
+        <constructor-arg>
+            <ref bean="tasteDS"/>
+        </constructor-arg>
+    </bean>
+
+</beans>
