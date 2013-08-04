@@ -13,25 +13,25 @@
              ">
 
     <services:uris>
-        <uris:uri id="tasteServer" exposed="true">
-            <serverURI>http://localhost:8080</serverURI>
+        <uris:uri id="jokeServer" exposed="true">
+            <serverURI>http://kelepi.com:8080</serverURI>
         </uris:uri>
 
-        <uris:turbine-uri id="adminModule" exposed="true" extends="tasteServer">
+        <uris:turbine-uri id="adminModule" exposed="true" extends="jokeServer">
             <contextPath></contextPath>
             <componentPath>admin</componentPath>
         </uris:turbine-uri>
         
-        <uris:turbine-uri id="commonModule" exposed="true" extends="tasteServer">
+        <uris:turbine-uri id="commonModule" exposed="true" extends="jokeServer">
         	<contextPath></contextPath>
             <componentPath>common</componentPath>
         </uris:turbine-uri>
         
-        <uris:turbine-uri id="tasteModule" exposed="true" extends="tasteServer">
+        <uris:turbine-uri id="jokeModule" exposed="true" extends="jokeServer">
         	<contextPath></contextPath>
         </uris:turbine-uri>
         
-        <uris:turbine-content-uri id="staticsContent" exposed="true" extends="tasteServer">
+        <uris:turbine-content-uri id="staticsContent" exposed="true" extends="jokeServer">
        	    <contextPath></contextPath>
             <componentPath>statics</componentPath>
         </uris:turbine-content-uri>

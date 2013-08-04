@@ -3,42 +3,24 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>聚外卖 - 贴心外卖服务</title>
-    <!--
-    <script type="text/javascript" src="$staticsContent.getURI('js/jquery-1.6.4.min.js')" ></script>
-	<script type="text/javascript" src="$staticsContent.getURI('js/jquery.timers.js')" ></script>
-	<script type="text/javascript" src="$staticsContent.getURI('js/jplugin/jquery.projectutils.js')?t=9" ></script>
-	<script type="text/javascript" src="$staticsContent.getURI('js/commonPosition.js')?t=3" ></script>
-	<script src="$staticsContent.getURI('js/jquery.form-min.js')" type="text/javascript"></script>
-	-->
-    <script type="text/javascript" src="$staticsContent/js/??jquery-1.6.4.min.js,jquery.timers.min.js,jplugin/jquery.projectutils.min.js,commonPosition.min.js,newHead.min.js,position.min.js?t=1" ></script>
-
-    <link rel="stylesheet" type="text/css" href="$staticsContent.getURI('css/jplugin/jquery.projectutils.min.css')?t=6" >
-    <!--
-	<link rel="stylesheet" type="text/css" href="$staticsContent.getURI('css/common.css')?t=100006" >
-	<link rel="stylesheet" type="text/css" href="$staticsContent.getURI('css/core.css')?t=1">
-	<link rel="stylesheet" type="text/css" href="$staticsContent.getURI('css/layout.css')?t=1">
-	<link rel="stylesheet" type="text/css" href="$staticsContent.getURI('css/classes.css')?t=1">
-	<link rel="stylesheet" type="text/css" href="$staticsContent.getURI('css/new/core.css')?t=3">
-	<link rel="stylesheet" type="text/css" href="$staticsContent.getURI('css/new/layout.css')?t=3">
-	<link rel="stylesheet" type="text/css" href="$staticsContent.getURI('css/new/classes.css')?t=3">
-	-->
-    <link rel="stylesheet" type="text/css" href="$staticsContent/css/??core.min.css,layout.min.css,classes.min.css?t=3">
-    <link rel="stylesheet" type="text/css" href="$staticsContent/css/new/??core.min.css,layout.min.css,classes.min.css?t=3">          <!--[if lte IE 6]>
-    <link rel="stylesheet" type="text/css" href="$staticsContent.getURI('css/ie6.css')" />
-    <![endif]-->
-
-    <!--[if lte IE 7]>
-    <link rel="stylesheet" type="text/css" href="$staticsContent.getURI('css/ie7.css')" />
-    <![endif]-->
-    <meta property="wb:webmaster" content="ee561efa7b219e85" />
+    <title>可乐皮-原创笑话社区，内涵笑话，基情无限,腐得有腔调</title>
+    <meta name="keywords" content="内涵笑话 夫妻笑话 段子">
+    <meta name="description" content="可乐皮-原创笑话社区，才子佳人多，所以内涵深、基情无限、腐得有腔调">
+    <script src="http://lib.sinaapp.com/js/jquery/1.8/jquery.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="$!staticsContent.getURI('css/bootstrap.min.css')">
+    <link rel="stylesheet" type="text/css" href="$!staticsContent.getURI('css/kelepi.css')">
+    <script type="text/javascript" src="$!staticsContent.getURI('js/bootstrap.min.js')"></script>
 </head>
 <body>
-    $control.setTemplate("common:newHead.vm").setParameter("select",$select).setParameter("shopDOs",$shopDOs)
-	$control.setTemplate("common:newHeadMenu.vm").setParameter("select",$select)
+<div id="warp">
+    <div class="container">
+    $control.setTemplate("common:head.vm")
 
 	$screen_placeholder
+    $control.setTemplate("common:footer.vm")
 
-	$control.setTemplate("common:footer.vm")
+
+        </div>
+    </div>
 </body>
 </html>

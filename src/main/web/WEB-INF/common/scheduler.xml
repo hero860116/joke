@@ -5,7 +5,7 @@
 	<!--
 	<bean id="statisticsMonthSalesJob" class="org.springframework.scheduling.quartz.JobDetailBean">
 		<property name="jobClass">
-			<value>com.lwl.extend.StatisticsMonthSalesJob</value>
+			<value>com.kelepiepi.extend.StatisticsMonthSalesJob</value>
 		</property>
 		<property name="jobDataAsMap">
 			<map>

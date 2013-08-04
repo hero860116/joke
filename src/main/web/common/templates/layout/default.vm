@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>聚外卖 - 贴心外卖服务</title>
+    <title>可乐皮-原创笑话社区，内涵笑话，基情无限,腐得有腔调</title>
     <script type="text/javascript" src="$staticsContent.getURI('js/jquery-1.6.4.min.js')" ></script>
     <link href="$staticsContent.getURI('css/common.css')?t=100006" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="$staticsContent.getURI('css/core.css')">
@@ -13,11 +13,14 @@
     <link rel="stylesheet" type="text/css" href="$staticsContent.getURI('css/new/classes.css')">
 </head>
 <body>
+<!--
     $control.setTemplate("newHead.vm")
 	$control.setTemplate("newHeadMenu.vm")
+	-->
 
 	$screen_placeholder
-
+    <!--
 	$control.setTemplate("footer.vm")
+	-->
 </body>
 </html>
