@@ -24,6 +24,7 @@
         <pull-factories:utils />
         <pull-factories:rundata-tool />
         <pull-factories:csrfToken />
+        <pull-factories:form-tool />
         <pull-factories:control-tool />
         <pull-factories:uris-tool />
     </services:pull>

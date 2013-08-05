@@ -1,10 +1,6 @@
-<script type="text/javascript" src="$!staticsContent.getURI('js/jquery.uploadify.min.js')"></script>
-<link rel="stylesheet" type="text/css" href="$!staticsContent.getURI('css/uploadify.css')" />
+<script type="text/javascript" src="$!staticsContent.getURI('uploadify/jquery.uploadify.min.js')"></script>
+<link rel="stylesheet" type="text/css" href="$!staticsContent.getURI('uploadify/uploadify.css')" />
 <div class="content bg_white">
-
-
-
-
     <div class="register">
         <h3>登陆成功，请完善您的资料</h3>
         <!--不做前端校验了，JS太麻烦了-->
@@ -35,10 +31,9 @@
                     <div class="span3">
                         <span class="help-block margin-left-20">用户头像：</span>
                         <img class="img-polaroid margin_tb_8 margin-left-20" style="width:80px;" id="avatarimg" src="$!user.avatarLarge">
+                        <input type="hidden" id="faceImageUrl" name="faceImageUrl" value="$!user.avatarLarge" />
                         <input class="" type="file" name="avatar_upload" id="avatar_upload" />
                     </div>
-
-
 
                 </div>
                 <div class="clearfix form-actions" style="padding-left:260px;">
@@ -56,15 +51,15 @@
 <script type="text/javascript">
     $(function() {
         $("#avatar_upload").uploadify({
+            'fileObjName' : 'imgFile',
             'buttonText'	: '重新上传',
             'height'        : 30,
-            'swf'           : '/images/uploadify.swf',
+            'swf'           : '$staticsContent.getURI('uploadify/uploadify.swf')',
             <!--         uploader   这里你来定义     -->
-            'uploader'      : '/uploadify/uploadify.php',
+            'uploader'      : '$jokeModule.setTarget('uploadImg.vm')',
             'width'         : 120,
-            'onUploadSuccess' : function(avatarurl){
-                $('#avatar').attr("value")=avatarurl;
-                $('#avatarimg').attr("src")=avatarurl;
+            'onUploadSuccess' : function(file, data, response){
+                $("#avatarimg").attr("src", data);
             }
         });
     });

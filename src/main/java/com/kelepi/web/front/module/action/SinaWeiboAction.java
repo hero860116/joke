@@ -16,7 +16,7 @@ public class SinaWeiboAction {
     private SinaWeiboAO sinaWeiboAO;
 
     /**
-     * 增加食物
+     * 转到sinaweibo登录页面
      * @param nav
      * @param rundata
      * @param context

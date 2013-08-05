@@ -36,6 +36,11 @@
             <componentPath>statics</componentPath>
         </uris:turbine-content-uri>
 
+        <uris:turbine-content-uri id="serverContent" exposed="true" extends="jokeServer">
+            <contextPath></contextPath>
+            <componentPath></componentPath>
+        </uris:turbine-content-uri>
+
     </services:uris>
 
 </beans:beans>
